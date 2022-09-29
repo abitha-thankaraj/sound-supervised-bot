@@ -1,0 +1,8 @@
+*.egg-info
+*.pyc
+**.ipynb_checkpoints
+**scratch**
+**.pkl
+notebooks/**
+**cfgs.yaml
+**.sh
