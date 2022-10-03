@@ -6,11 +6,11 @@ For additional robot dependencies:
     
     ```
         sudo apt-get install -y libavformat-dev libavcodec-dev libavdevice-dev libavutil-dev libswscale-dev libswresample-dev libavfilter-dev
-        
+
         conda env create -f setup/environment.yml
-        
+
         conda activate soundbot
-        
+
         pip install -e .
     ```
 
