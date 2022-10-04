@@ -1,18 +1,31 @@
 # Sound supervised robot
+
+### Setup
+
 To setup the package:<br>
 
 Follow instructions to setup [aurl](https://github.com/abitha-thankaraj/audio-robot-learning)<br>
+
 For additional robot dependencies:
-    
+
+1. Install additional audio dependencies with:
     ```
-        sudo apt-get install -y libavformat-dev libavcodec-dev libavdevice-dev libavutil-dev libswscale-dev libswresample-dev libavfilter-dev
+           sudo apt-get install -y libavformat-dev libavcodec-dev libavdevice-dev libavutil-dev libswscale-dev libswresample-dev libavfilter-dev
 
-        conda env create -f setup/environment.yml
+    ```
 
+2. Install the required python packages:
+
+    ```
+        conda env create -f setup/environment.yaml
         conda activate soundbot
-
-        pip install -e .
+    ```   
+3. Install the soundbot library
     ```
+    pip install -e .
+    ```
+
+### Instructions
 
 For data collection:<br>
     ```
